@@ -71,5 +71,77 @@
   "dislikes": 1,
   "posterindex": 0
      },
-     
+     {
+  "title": "Kick-Ass",
+  "iscore": 7.6,
+  "rating": "R",
+  "runtime": 118,
+  "released": [2010, 4, 16],
+  "country": "USA",
+  "posters": ["img/kick1.jpg", "img/kick2.jpg", "img/kick3.jpg"],
+  "imdb": "http://www.imdb.com/title/tt1250777",
+  "website": "http://www.kickass-themovie.com",
+  "likes": 0,
+  "dislikes": 0,
+  "posterindex": 0
+},
+ {
+  "title": "Braveheart",
+  "iscore": 8.3,
+  "rating": "R",
+  "runtime": 178,
+  "released": [1995, 5, 24],
+  "country": "USA",
+  "posters": ["img/brave1.jpg", "img/brave2.jpg", "img/brave3.jpg"],
+  "imdb": "http://www.imdb.com/title/tt0112573",
+  "website": "https://www.paramount.com/movies/braveheart", 
+  "likes": 0,
+  "dislikes": 0,
+  "posterindex": 0
+},
+{
+  "title": "The Wolf of Wall Street",
+  "iscore": 8.2,
+  "rating": "R",
+  "runtime": 180,
+  "released": [2013, 12, 25],
+  "country": "USA",
+  "posters": ["img/wolf1.jpg", "img/wolf2.jpg", "img/wolf3.jpg"],
+  "imdb": "http://www.imdb.com/title/tt0993846",
+  "website": "http://www.thewolfofwallstreet.com",
+  "likes": 0,
+  "dislikes": 0,
+  "posterindex": 0
+},
+{
+  "title": "Terminator 2: Judgment Day",
+  "iscore": 8.6,
+  "rating": "R",
+  "runtime": 137,
+  "released": [1991, 7, 3],
+  "country": "USA",
+  "posters": ["img/term1.jpg", "img/term2.jpg", "img/term3.jpg"],
+  "imdb": "http://www.imdb.com/title/tt0103064",
+  "website": "https://www.facebook.com/terminator2",
+  "likes": 0,
+  "dislikes": 0,
+  "posterindex": 0
+},
+{
+  "title": "The Iron Giant",
+  "iscore": 8.1,
+  "rating": "PG",
+  "runtime": 86,
+  "released": [1999, 8, 6],
+  "country": "USA",
+  "posters": ["img/iron1.jpg", "img/iron2.jpg", "img/iron3.jpg"],
+  "imdb": "http://www.imdb.com/title/tt0129167",
+  "website": "https://www.warnerbros.com/movies/iron-giant",
+  "likes": 0,
+  "dislikes": 0,
+  "posterindex": 0
+}
+
+
+
 ]
