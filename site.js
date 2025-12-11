@@ -5,24 +5,42 @@ const vue_app = Vue.createApp({
             owner: "Anthony Brigante",
             github: "https://github.com/username/repo",
             movies: []
-        }
+        };
     },
+
+    created() {
+        fetch("movies.json")
+            .then(response => response.json())
+            .then(data => {
+                this.movies = data;
+            });
+    },
+
     methods: {
-        makeTextDate(dateArray){
+        makeTextDate(dateArray) {
             const [year, month, day] = dateArray;
             return `${month}/${day}/${year}`;
         },
-        timeText(minutes){
-            const h = Math.floor(minutes/60);
+
+        timeText(minutes) {
+            const h = Math.floor(minutes / 60);
             const m = minutes % 60;
-            return `${h}h ${m}m`;
+            return h > 0 ? `${h}h ${m}m` : `${m}m`;
         },
-        like(index){ this.movies[index].likes++; },
-        dislike(index){ this.movies[index].dislikes++; },
-        posterClick(index){
+
+        like(index) {
+            this.movies[index].likes++;
+        },
+
+        dislike(index) {
+            this.movies[index].dislikes++;
+        },
+
+        posterClick(index) {
             let movie = this.movies[index];
             movie.posterindex = (movie.posterindex + 1) % movie.posters.length;
         }
     }
 });
+
 vue_app.mount("#vue_app");
