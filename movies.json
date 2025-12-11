@@ -9,8 +9,8 @@
     "posters": ["img/velo2.jpg", "img/velo1.jpg", "img/velo3.jpg"],
     "imdb": "http://www.imdb.com/title/tt10312428",
     "website": "https://www.facebook.com/Velocipastor",
-    "likes": 0,
-    "dislikes": 0,
+    "likes": 1643,
+    "dislikes": 75,
     "posterindex": 0
   },
   {
@@ -23,8 +23,8 @@
     "posters": ["img/hard1.jpg", "img/hard2.jpg", "img/hard3.jpg"],
     "imdb": "http://www.imdb.com/title/tt0095016",
     "website": "https://www.foxmovies.com/movies/die-hard",
-    "likes": 0,
-    "dislikes": 0,
+    "likes": 6792,
+    "dislikes": 23,
     "posterindex": 0
   },
   {
@@ -37,8 +37,8 @@
     "posters": ["img/gump1.jpg", "img/gump2.jpg", "img/gump3.jpg"],
     "imdb": "http://www.imdb.com/title/tt0109830",
     "website": "https://www.paramount.com/movies/forrest-gump",
-    "likes": 0,
-    "dislikes": 0,
+    "likes": 98413,
+    "dislikes": 234,
     "posterindex": 0
   },
   {
@@ -51,8 +51,8 @@
     "posters": ["img/revenge1.jpg", "img/revenge2.jpg", "img/revenge3.jpg"],
     "imdb": "http://www.imdb.com/title/tt0121766",
     "website": "https://www.starwars.com/movies/episode-iii-revenge-of-the-sith",
-    "likes": 0,
-    "dislikes": 0,
+    "likes": 1246,
+    "dislikes": 22,
     "posterindex": 0
   },
   {
@@ -65,8 +65,8 @@
     "posters": ["img/whip1.jpg", "img/whip2.jpg", "img/whip3.png"],
     "imdb": "http://www.imdb.com/title/tt2582802",
     "website": "https://www.sonyclassics.com/whiplash",
-    "likes": 0,
-    "dislikes": 0,
+    "likes": 45124,
+    "dislikes": 3235,
     "posterindex": 0
   },
   {
@@ -79,8 +79,8 @@
     "posters": ["img/kick1.jpg", "img/kick2.jpg", "img/kick3.jpg"],
     "imdb": "http://www.imdb.com/title/tt1250777",
     "website": "https://www.universalpictures.com/movies/kick-ass",
-    "likes": 0,
-    "dislikes": 0,
+    "likes": 57124,
+    "dislikes": 232,
     "posterindex": 0
   },
   {
@@ -93,8 +93,8 @@
     "posters": ["img/brave1.jpg", "img/brave2.jpg", "img/brave3.jpg"],
     "imdb": "http://www.imdb.com/title/tt0112573",
     "website": "https://www.paramount.com/movies/braveheart",
-    "likes": 0,
-    "dislikes": 0,
+    "likes": 26342,
+    "dislikes": 465,
     "posterindex": 0
   },
   {
@@ -107,8 +107,8 @@
     "posters": ["img/wolf1.jpg", "img/wolf2.jpg", "img/wolf3.png"],
     "imdb": "http://www.imdb.com/title/tt0993846",
     "website": "https://www.paramount.com/movies/the-wolf-of-wall-street",
-    "likes": 0,
-    "dislikes": 0,
+    "likes": 69000,
+    "dislikes": 1247,
     "posterindex": 0
   },
   {
@@ -121,8 +121,8 @@
     "posters": ["img/term1.jpg", "img/term2.jpg", "img/term3.webp"],
     "imdb": "http://www.imdb.com/title/tt0103064",
     "website": "https://www.paramount.com/movies/terminator-2-judgment-day",
-    "likes": 0,
-    "dislikes": 0,
+    "likes": 47382,
+    "dislikes": 6734,
     "posterindex": 0
   },
   {
@@ -132,11 +132,11 @@
     "runtime": 86,
     "released": [1999, 8, 6],
     "country": "USA",
-    "posters": ["img/term1.jpg", "img/term2.jpg", "img/term3.webp"],
+    "posters": ["img/iron1.jpg", "img/iron2.jpg", "img/iron3.jpg"],
     "imdb": "http://www.imdb.com/title/tt0129167",
     "website": "https://www.example.com/iron_giant",
-    "likes": 0,
-    "dislikes": 0,
+    "likes": 23457,
+    "dislikes": 742,
     "posterindex": 0
   }
 ]
