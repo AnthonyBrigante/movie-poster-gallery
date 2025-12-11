@@ -3,7 +3,8 @@ const vue_app = Vue.createApp({
         return {
             title: "IS219 Movie Gallery",
             owner: "Anthony Brigante",
-            github: "https://github.com/username/repo"
+            github: "https://github.com/username/repo",
+            movies: []
         }
     }
 });
