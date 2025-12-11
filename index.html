@@ -20,9 +20,14 @@
 
     <div class="row">
       <div class="col-md-6 mb-4" v-for="(movie,index) in movies" :key="index">
-        <div class="thumbnail p-3">
+        <div class="thumbnail p-3 position-relative">
+          <img class="poster img-fluid mb-2" :src="movie.posters[movie.posterindex]" @click="posterClick(index)" />
           <p class="title">{{ movie.title }}</p>
           <p class="score">{{ movie.iscore }}</p>
+          <div class="social d-flex justify-content-between mt-3">
+            <p class="likes" @click="like(index)"><i class="bi bi-hand-thumbs-up"></i> {{ movie.likes }}</p>
+            <p class="dislikes" @click="dislike(index)"><i class="bi bi-hand-thumbs-down"></i> {{ movie.dislikes }}</p>
+          </div>
         </div>
       </div>
     </div>
